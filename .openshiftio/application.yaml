@@ -204,7 +204,7 @@ objects:
   metadata:
     labels:
       app: angular-web-app
-    name: frontend
+    name: angular-web-app
   spec:
     port:
       targetPort: 8080
