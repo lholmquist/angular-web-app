@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+
+## Running on Openshift
+
+`find . | grep openshiftio | grep application | xargs -n 1 oc apply -f`
+
+` oc new-app --template angular-web-app -p SOURCE_REPOSITORY_URL=https://github.com/lholmquist/angular-web-app -p OUTPUT_DIR=dist angular-web-app`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
