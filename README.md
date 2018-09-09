@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 `find . | grep openshiftio | grep application | xargs -n 1 oc apply -f`
 
-` oc new-app --template angular-web-app -p SOURCE_REPOSITORY_URL=https://github.com/lholmquist/angular-web-app -p OUTPUT_DIR=dist angular-web-app`
+` oc new-app --template angular-web-app -p SOURCE_REPOSITORY_URL=https://github.com/lholmquist/angular-web-app -p OUTPUT_DIR=dist/angular-web-app`
 
 ## Development server
 
