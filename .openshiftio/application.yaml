@@ -53,7 +53,7 @@ objects:
     - name: latest
       from:
         kind: DockerImage
-        name: bucharestgold/centos7-s2i-web-app:latest
+        name: nodeshift/centos7-s2i-web-app:latest
 - apiVersion: v1
   kind: ImageStream
   metadata:
