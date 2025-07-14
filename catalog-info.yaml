@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: angular-web-app
+  annotations:
+    github.com/project-slug: lholmquist/angular-web-app
+spec:
+  type: other
+  lifecycle: unknown
+  owner: user:default/guest
